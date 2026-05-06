@@ -76,7 +76,7 @@ Learn more at **[www.testnizer.com](https://www.testnizer.com)**.
 Open an issue in this repository:
 [github.com/apinizer/testnizer-releases/issues](https://github.com/apinizer/testnizer-releases/issues)
 
-For security vulnerabilities, please email **security@testnizer.com** instead
+For security vulnerabilities, please email **info@testnizer.com** instead
 of opening a public issue.
 
 ## Documentation
