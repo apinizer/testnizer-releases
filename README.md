@@ -1,8 +1,15 @@
 # Testnizer — Releases
 
-This repository hosts the official release artifacts for
+This repository **hosts the official release artifacts** for
 **[Testnizer](https://www.testnizer.com)** — the offline API client for teams
 who can't paste tokens into the cloud.
+
+> The application source code lives at
+> **[github.com/apinizer/testnizer](https://github.com/apinizer/testnizer)**.
+> This repository is **release-only**: the only file you'll find here is this
+> README. The "Source code" archives that GitHub auto-generates for every tag
+> are a snapshot of *this* repo (i.e. just this README), not the application
+> source — point your editor at the main repo above instead.
 
 > Testnizer is a free, MIT-licensed community project by
 > [Apinizer](https://apinizer.com).
@@ -33,13 +40,13 @@ artifact.
 **macOS / Linux:**
 
 ```sh
-shasum -a 256 Testnizer-1.0.3-arm64.dmg
+shasum -a 256 Testnizer-1.1.1-arm64.dmg
 ```
 
 **Windows (PowerShell):**
 
 ```powershell
-Get-FileHash .\Testnizer-Setup-1.0.3-x64.exe -Algorithm SHA256
+Get-FileHash .\Testnizer-Setup-1.1.1-x64.exe -Algorithm SHA256
 ```
 
 Compare the output against the matching line in `checksums.txt`. If they do
@@ -53,8 +60,10 @@ Testnizer is a fully offline desktop app for testing APIs:
 - **SOAP / WSDL** — WSDL import, manual envelope mode, WS-Security built in
 - **WebSocket** — wss + custom headers + message timeline
 - **GraphQL** — query, mutation, subscription, schema introspection
-- **gRPC** — all four streaming modes, .proto import
+- **gRPC** — all four streaming modes, .proto import, server reflection
 - **Server-Sent Events** — long-lived streams, Last-Event-ID resume
+- **Socket.IO** — namespaces, auth, emit + subscribe, bidirectional timeline
+- **MCP** — Streamable HTTP / SSE / stdio; list and invoke tools
 - **AI Chat** — 14 providers + custom URL (vLLM, Ollama, LM Studio)
 
 Everything runs locally. No login, no telemetry, no vendor server. Collections,
@@ -73,11 +82,16 @@ Learn more at **[www.testnizer.com](https://www.testnizer.com)**.
 
 ## Reporting issues
 
-Open an issue in this repository:
-[github.com/apinizer/testnizer-releases/issues](https://github.com/apinizer/testnizer-releases/issues)
+Bugs, feature requests, and questions all go to the **main repository**:
+[github.com/apinizer/testnizer/issues](https://github.com/apinizer/testnizer/issues)
 
-For security vulnerabilities, please email **info@testnizer.com** instead
-of opening a public issue.
+For security vulnerabilities, please email **info@apinizer.com** instead of
+opening a public issue.
+
+## Enterprise support
+
+Need paid support, response-time SLAs, on-premise deployment assistance,
+training, or custom development? Contact **info@apinizer.com**.
 
 ## Documentation
 
