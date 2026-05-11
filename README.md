@@ -4,15 +4,14 @@ This repository **hosts the official release artifacts** for
 **[Testnizer](https://www.testnizer.com)** — the offline API client for teams
 who can't paste tokens into the cloud.
 
-> The application source code lives at
-> **[github.com/apinizer/testnizer](https://github.com/apinizer/testnizer)**.
-> This repository is **release-only**: the only file you'll find here is this
-> README. The "Source code" archives that GitHub auto-generates for every tag
-> are a snapshot of *this* repo (i.e. just this README), not the application
-> source — point your editor at the main repo above instead.
+> Testnizer is distributed as **pre-built binary installers only**. The
+> source code is not publicly released. The "Source code" archives that
+> GitHub auto-generates for every tag are a snapshot of *this* repo (i.e.
+> just this README), not the application source.
 
-> Testnizer is a free, MIT-licensed community project by
-> [Apinizer](https://apinizer.com).
+> Testnizer is a **free** desktop application by
+> [Apinizer](https://apinizer.com). Free to download and use — see the
+> [End User License Agreement](https://www.testnizer.com/license) for terms.
 
 ## Download
 
@@ -40,13 +39,13 @@ artifact.
 **macOS / Linux:**
 
 ```sh
-shasum -a 256 Testnizer-1.1.1-arm64.dmg
+shasum -a 256 Testnizer-1.3.0-arm64.dmg
 ```
 
 **Windows (PowerShell):**
 
 ```powershell
-Get-FileHash .\Testnizer-Setup-1.1.1-x64.exe -Algorithm SHA256
+Get-FileHash .\Testnizer-Setup-1.3.0-x64.exe -Algorithm SHA256
 ```
 
 Compare the output against the matching line in `checksums.txt`. If they do
@@ -82,8 +81,8 @@ Learn more at **[www.testnizer.com](https://www.testnizer.com)**.
 
 ## Reporting issues
 
-Bugs, feature requests, and questions all go to the **main repository**:
-[github.com/apinizer/testnizer/issues](https://github.com/apinizer/testnizer/issues)
+Bugs, feature requests, and questions:
+[github.com/apinizer/testnizer-releases/issues](https://github.com/apinizer/testnizer-releases/issues)
 
 For security vulnerabilities, please email **info@apinizer.com** instead of
 opening a public issue.
@@ -100,5 +99,7 @@ Full documentation is available at
 
 ## License
 
-Testnizer is [MIT-licensed](https://www.testnizer.com/license).
-The Testnizer name and logo are project marks of Apinizer.
+Testnizer is **free** to download and use, but it is **not open source**.
+The application is distributed as proprietary, pre-built binaries under the
+[End User License Agreement](https://www.testnizer.com/license).
+The "Testnizer" name and logo are project marks of Apinizer.
