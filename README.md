@@ -81,16 +81,20 @@ Learn more at **[www.testnizer.com](https://www.testnizer.com)**.
 
 ## Reporting issues
 
-Bugs, feature requests, and questions:
-[github.com/apinizer/testnizer-releases/issues](https://github.com/apinizer/testnizer-releases/issues)
+Bugs, feature requests, and questions — please open an issue:
+**[github.com/apinizer/testnizer-releases/issues](https://github.com/apinizer/testnizer-releases/issues/new/choose)**
 
-For security vulnerabilities, please email **info@apinizer.com** instead of
-opening a public issue.
+For **security vulnerabilities**, please use GitHub's private security
+advisory channel instead of a public issue — it stays private between you
+and the maintainers:
+**[Report a vulnerability privately](https://github.com/apinizer/testnizer-releases/security/advisories/new)**
 
 ## Enterprise support
 
 Need paid support, response-time SLAs, on-premise deployment assistance,
-training, or custom development? Contact **info@apinizer.com**.
+training, or custom development? Open an issue with the **`enterprise`**
+label and we'll reach out:
+**[Open an enterprise-support request](https://github.com/apinizer/testnizer-releases/issues/new?labels=enterprise&title=Enterprise+support+inquiry)**
 
 ## Documentation
 
